@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="CssReset.css">
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/32dbdc5f9a.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+
     <title>Title</title>
 </head>
 
@@ -134,6 +136,12 @@
         </p>
     </footer>
 
+    <script>
+        var scroll = new SmoothScroll('a[href*="#"]', {
+            speed: 1000,
+            speedAsDuration: true
+        });
+    </script>
 
 
 
